@@ -8,7 +8,7 @@ export default class extends Controller {
     static values = {
         infoUrl: String,
     };
-
+    //adding function play 
     play(event) {
         event.preventDefault();
         if (currentAudio) {
