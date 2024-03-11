@@ -10,6 +10,7 @@ class VinylController  extends AbstractController
     #[Route("/", name :'app_homepage')]
     public function homepage() : Response
     {
+        # Rename songs 
         $tracks = [
             ['song' => 'suzme no tajumir', 'artist' => 'TOAKA'],
             ['song' => 'Shootout', 'artist' => 'Izzamuzzic'],

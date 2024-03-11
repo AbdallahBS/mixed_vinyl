@@ -12,7 +12,7 @@ class SongController extends AbstractController
 
     public function getSong(int $id, LoggerInterface $logger):Response
     {
-        
+        #adding path for each song
         $songs = [
             1 => ['name' => 'Suzume', 'url' => '/audio/Suzume no tojimari.mp3'],
             2 => ['name' => 'Shootout', 'url' => '/audio/Izzamuzzic - Shootout.mp3'],
