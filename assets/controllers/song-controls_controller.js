@@ -11,6 +11,7 @@ export default class extends Controller {
     //adding function play 
     play(event) {
         event.preventDefault();
+        //ading method to stop the current music 
         if (currentAudio) {
             currentAudio.pause();
             currentAudio.currentTime = 0;
